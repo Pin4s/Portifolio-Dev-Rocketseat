@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    <main class="grid container">
-        <section class="hero grid">
+    <main class="container grid">
+        <section id="hero" class="grid ">
             <img src="assets/Avatar.png" alt="">
-            <p>Hello World! Meu nome é <span> Martina Santos </span> e sou</p>
+            <p class="hello">Hello World! Meu nome é <span> Martina Santos </span> e sou</p>
             <h1>Desenvolvedora Fullstack</h1>
             <p>
                 Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da
@@ -25,26 +25,27 @@
                 paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
             </p>
         </section>
-        <section class="grid tech-stack">
-            <ul>
-                <li>GitHub</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Node.js</li>
+        <section id="tech-stack">
+            <ul class="flex">
+                <li><img src="assets/icons/GitHub.svg" alt="">GitHub</li>
+                <li><img src="assets/icons/HTML.svg" alt="">HTML</li>
+                <li><img src="assets/icons/CSS.svg" alt="">CSS</li>
+                <li><img src="assets/icons/JavaScript.svg" alt="">JavaScript</li>
+                <li><img src="assets/icons/React.svg" alt="">React</li>
+                <li><img src="assets/icons/Node.js.svg" alt="">Node.js</li>
             </ul>
         </section>
 
-        <section class="grid highlight-projects">
-            <!-- Aqui vai ter um display flex pra separar a img e a div com espaço entre eles na horizontal-->
+        <section id="highlight-projects" class="grid ">
             <img src="assets/icons/Arrow down.svg" alt="">
-            <div>
-                <span>Meu trabalho</span>
-                <h2>Veja os projetos em destaque</h2>
-            </div>
+            <!-- Aqui vai ter um display flex pra separar a img e a div com espaço entre eles na horizontal-->
+            <span>Meu trabalho</span>
+            <h2>Veja os projetos em destaque</h2>
         </section>
     </main>
+    <section id="projects">
+
+    </section>
 </body>
 
 </html>

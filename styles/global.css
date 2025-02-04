@@ -31,19 +31,27 @@
 
 }
 
-*{
+
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-
-
-section{
-    border: 1px solid green;
+body {
+    background-color: #13161dc4;
 }
 
-main{
+main {
+    height: 100vh;
+    margin: 0 auto;
+    justify-items: center;
+    background-image: url(../assets/images/Background_Intro.png);
+    background-size: cover;
+}
 
-    background-color: red;
+span {
+    font: var(--subtitle);
+    color: var(--red);
 }

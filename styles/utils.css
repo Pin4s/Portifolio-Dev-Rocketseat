@@ -1,13 +1,19 @@
+@import url(global.css);
+
 .grid{
     display: grid;
     justify-items: center;
 }
 
-.grid-flow-col{
-    grid-template-rows: row;
+.flex{
+    display: flex;
 }
+
 .container{
-    max-width: 1280px;
-    padding-inline: 32px;
-    margin-inline: auto ;
+    max-width: 100vw;
+}
+
+.hello{
+    font: var(--subtitle);
+    color: var(--gray-500);
 }
