@@ -1,0 +1,20 @@
+:root{
+    
+
+    /*Asap font styles*/
+    --asap-font: "Asap", sans-serif
+    --title-lg: 700 56px/120% var(--asap-font)
+    --title-md: 700 24px/120% var(--asap-font)
+    --title-sm 700 16px/120% var(--asap-font)
+
+    /*Inconsolata font styles*/
+    --inconsolata-font: "Inconsolata", sans-serif
+    --subtitle: 400 20px/120% var(--inconsolata-font)
+
+    /*Maven pro font styles*/
+    --maven-pro-font: "Maven Pro", sans-serif
+    --text-md: 400 16px/140% var(--maven-pro-font)
+    --text-sm: 400 14px/140% var(--maven-pro-font)
+
+
+}
