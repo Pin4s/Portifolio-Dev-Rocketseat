@@ -29,5 +29,21 @@
     --text-md: 400 16px/140% var(--maven-pro-font);
     --text-sm: 400 14px/140% var(--maven-pro-font);
 
+}
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+section{
+    border: 1px solid green;
+}
+
+main{
+
+    background-color: red;
 }
