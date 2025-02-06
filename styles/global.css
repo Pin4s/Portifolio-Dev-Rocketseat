@@ -82,4 +82,5 @@ span {
 
 .subtitle{
     font: var(--subtitle);
+    color: var(--gray-500);
 }

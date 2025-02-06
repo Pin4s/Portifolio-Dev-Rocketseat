@@ -16,3 +16,9 @@
     max-width: 100%;
 }
 
+.arrow-down{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
