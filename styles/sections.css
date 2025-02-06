@@ -3,16 +3,24 @@
 }
 
 #hero {
-    height: 100vh;
+    height:85vh;
     display: flex;
     flex-direction: column;
     position: relative;
     justify-content: space-between;
+
+
+    .arrow-down{
+        width: 32px;
+        height: 32px;
+        margin-bottom: 67px;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+    }
 }
 
-.arrow-down {
-    margin-bottom: 67px;
-}
+
 
 #about {
     max-width: 680px;
@@ -24,13 +32,12 @@
     p {
         text-align: center;
     }
+
+    p:nth-child(4) {
+        color: var(--gray-400);
+    }
+
 }
-
-#about p:nth-child(4) {
-    color: var(--gray-400);
-}
-
-
 
 #tech-stack {
     border: 1px solid blue;
@@ -63,14 +70,14 @@
     }
 }
 
+
+
+
 #projects {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    place-content: center;
-
-
-    margin-top: 56px;
+    margin-top: 52px;
     gap: 24px;
+    place-content: center;
+    padding-bottom: 144px;
 
     .card {
         background-color: var(--gray-300);
@@ -79,8 +86,10 @@
         width: 330px;
         height: 280px;
 
+
         .card-text {
             margin-top: 20px;
+
 
             p {
                 margin-top: 8px;
@@ -88,12 +97,11 @@
         }
     }
 
+
     img {
         border-radius: 8px;
         width: 306px;
         height: 156px;
-
     }
-
 
 }

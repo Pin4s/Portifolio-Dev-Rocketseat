@@ -40,7 +40,8 @@
 }
 
 body {
-    background-color: #13161dc4;
+
+    background-color: var(--gray-200);
 }
 
 main {
@@ -67,7 +68,8 @@ h3{
 }
 
 span {
-    color: var(--red);
+    font: var(--inconsolata-font);
+    color: var(--red);   
 }
 
 .text-md{

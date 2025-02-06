@@ -16,9 +16,12 @@
     max-width: 100%;
 }
 
-.arrow-down{
-    display: flex;
-    justify-self: center;
-    align-self: center;
+.grid-cols{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-content: center;
 }
 
+.gap-24{
+    gap: 24px;
+}
