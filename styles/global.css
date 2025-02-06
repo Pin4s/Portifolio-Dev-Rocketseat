@@ -44,14 +44,42 @@ body {
 }
 
 main {
-    height: 100vh;
     margin: 0 auto;
     justify-items: center;
+    height: 100vh;
     background-image: url(../assets/images/Background_Intro.png);
     background-size: cover;
 }
 
+h1 {
+    font: var(--title-lg);
+    color: var(--gray-600);
+}
+
+h2{
+    font: var(--title-md);
+    color: var(--gray-600);
+}
+
+h3{
+    font: var(--title-sm);
+    color: var(--gray-600);
+}
+
 span {
-    font: var(--subtitle);
     color: var(--red);
+}
+
+.text-md{
+    font: var(--text-md);
+    color: var(--gray-500);
+}
+
+.text-sm{
+    font: var(--text-sm);
+    color: var(--gray-500);
+}
+
+.subtitle{
+    font: var(--subtitle);
 }

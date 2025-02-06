@@ -1,40 +1,86 @@
-#hero{
-    border: 1px solid green;
-    max-width: 680px;
-    
+.BORDA {
+    border: solid 1px red;
+}
 
-    h1{
+#about {
+    max-width: 680px;
+
+
+    h1 {
         font: var(--title-lg);
         color: var(--gray-600);
     }
-    
-    p{
+
+    p {
         text-align: center;
         font: var(--text-sm);
         color: var(--gray-400);
     }
 }
 
-#tech-stack{
-    ul{
-        margin-top:80px;
+#tech-stack {
+    display: inline;
+
+    ul {
+        margin-top: 80px;
         list-style: none;
         gap: 16px;
         color: var(--gray-500);
         font: var(--text-sm);
 
-        li{
+        li {
             display: flex;
             align-items: center;
             gap: 8px;
             border-radius: 99px;
-            padding:  8px 16px;
+            padding: 8px 16px;
             background-color: var(--gray-300);
-            img{
+
+            img {
                 width: 24px;
                 height: 24px;
             }
-            
+
         }
     }
+}
+
+#highlight-projects {
+    font: var(--title-md);
+    color: var(--gray-600);
+}
+
+#projects {
+    display: grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+    place-content: center;
+
+
+    margin-top: 56px;
+    gap: 24px;
+
+    .card {
+        background-color: var(--gray-300);
+        border-radius: 12px;
+        padding: 12px;
+        width: 330px;
+        height: 280px;
+
+        .card-text{
+            margin-top: 20px;
+            p{
+                margin-top: 8px;
+            }
+        }
+    }
+
+    img {
+        border-radius: 8px;
+        width: 306px;
+        height: 156px;
+
+    }
+
+
 }
