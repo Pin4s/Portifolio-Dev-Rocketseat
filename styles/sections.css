@@ -3,14 +3,14 @@
 }
 
 #hero {
-    height:85vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     position: relative;
     justify-content: space-between;
 
 
-    .arrow-down{
+    .arrow-down {
         width: 32px;
         height: 32px;
         margin-bottom: 67px;
@@ -70,16 +70,13 @@
     }
 }
 
-
-
-
 #projects {
     margin-top: 52px;
     gap: 24px;
     place-content: center;
     padding-bottom: 144px;
 
-    .card {
+    .project-card {
         background-color: var(--gray-300);
         border-radius: 12px;
         padding: 12px;
@@ -103,5 +100,29 @@
         width: 306px;
         height: 156px;
     }
+
+}
+
+#services {
+    background-color: var(--gray-100);
+    width: 100%;
+    padding: 88px 120px;
+    flex-direction: column;
+    gap: 56px;
+
+    #services-text {
+        place-content: center;
+    }
+
+    #service-cards-container {
+        justify-content: center;
+    }
+
+    .service-card {
+        max-width: 280px;
+        border: 2px solid var(--gray-200);
+        padding: 20px;
+    }
+
 
 }

@@ -57,32 +57,18 @@ h1 {
     color: var(--gray-600);
 }
 
-h2{
+h2 {
     font: var(--title-md);
     color: var(--gray-600);
 }
 
-h3{
+h3 {
     font: var(--title-sm);
     color: var(--gray-600);
 }
 
 span {
-    font: var(--inconsolata-font);
-    color: var(--red);   
+    font-family: var(--inconsolata-font), Arial, sans-serif ;
+    color: var(--red);
 }
 
-.text-md{
-    font: var(--text-md);
-    color: var(--gray-500);
-}
-
-.text-sm{
-    font: var(--text-sm);
-    color: var(--gray-500);
-}
-
-.subtitle{
-    font: var(--subtitle);
-    color: var(--gray-500);
-}
