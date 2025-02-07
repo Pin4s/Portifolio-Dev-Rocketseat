@@ -16,7 +16,8 @@ A proposta foi simular um repositório fictício para aplicar conceitos fundamen
 
 ## 📸 Demonstração  
 
-![image](https://github.com/user-attachments/assets/dbc7af3e-73c2-4cbb-adb3-fb197e883238)
+![Design sem nome (4)](https://github.com/user-attachments/assets/56354928-d3b8-4be1-9a85-1f57eb2b925c)
+
 
 ---
 
