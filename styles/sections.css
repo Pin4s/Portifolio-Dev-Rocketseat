@@ -23,11 +23,16 @@
     margin-top: 120px;
     justify-self: center;
 
+    img{
+        margin-bottom: 56px;
+    }
+
     p {
         text-align: center;
     }
 
     p:nth-child(4) {
+        margin-top: 20px;
         color: var(--gray-400);
     }
 
